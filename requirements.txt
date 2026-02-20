@@ -1,0 +1,13 @@
+requests
+rpy2==3.5.1
+streamlit==1.37.1
+pandas==2.2.2
+boto3==1.38.3
+numpy==1.26.4
+python-dotenv==0.21.0
+scikit-learn==1.5.1
+joblib==1.4.2
+pyreadr
+statsmodels==0.14.2
+scipy==1.11.4
+xgboost==3.0.2

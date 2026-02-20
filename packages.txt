@@ -1,0 +1,13 @@
+r-base
+r-base-dev
+libcurl4-openssl-dev
+libssl-dev
+libxml2-dev
+libxml2
+build-essential
+cmake
+libboost-all-dev
+libeigen3-dev
+libopenblas-dev
+liblapack-dev
+gfortran
