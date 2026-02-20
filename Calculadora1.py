@@ -56,12 +56,12 @@ s3 = boto3.client('s3',
 )
 # ---------------- CONFIGURACIÓN ----------------
 
-GITHUB_RAW_URL = "https://raw.githubusercontent.com/JlazoFC/Calculadoratc/refs/heads/main/"  # Ajusta esto con tu usuario/repositorio
+GITHUB_RAW_URL = "https://raw.githubusercontent.com/JlazoFC/Calculadoratc/main/"  # Ajusta esto con tu usuario/repositorio
 
 BASEID = 'Base_martin.csv'
 BLMID = 'blmid_validos.csv'
 CPID = 'CPID.csv'
-AIS = 'https://github.com/JlazoFC/Calculadoratc/blob/main/base_AIS.parquet'  # Recomendado usar parquet si el archivo es grande
+AIS = 'https://github.com/JlazoFC/Calculadoratc/blob/main/Base_AIS.parquet'  # Recomendado usar parquet si el archivo es grande
 USU = 'Usuarios.csv'
 
 print("✅ Configuración cargada para lectura desde GitHub.")
