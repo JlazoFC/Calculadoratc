@@ -56,7 +56,7 @@ s3 = boto3.client('s3',
 )
 # ---------------- CONFIGURACIÓN ----------------
 
-GITHUB_RAW_URL = "https://raw.githubusercontent.com/JlazoFC/Calculadoratc/refs/heads/main/"  # Ajusta esto con tu usuario/repositorio
+GITHUB_RAW_URL = "https://github.com/JlazoFC/Calculadoratc/blob/main/"  # Ajusta esto con tu usuario/repositorio
 
 BASEID = 'Base_martin.csv'
 BLMID = 'blmid_validos.csv'
